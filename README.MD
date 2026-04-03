@@ -1,6 +1,6 @@
 # Immich Random Album Image Server
 
-A minimal Node.js Express server that fetches a random image from an Immich album, smart-crops it to the requested aspect ratio, and serves it at [wallpapers.by.vincent.mahn.ke](https://wallpapers.by.vincent.mahn.ke).
+A minimal Node.js Express server that fetches a random image from an Immich album, smart-crops it to the requested aspect ratio, and serves it at [teamsbg.by.vincent.mahn.ke](https://teamsbg.by.vincent.mahn.ke).
 
 ## Android setup
 
@@ -10,7 +10,7 @@ A minimal Node.js Express server that fetches a random image from an Immich albu
 
 3. Set the delay to your intended duration
 4. Get your screen height and width
-5. Set Request URL to `https://wallpapers.by.vincent.mahn.ke/?height=<height>&width=<height>&token=<height>
+5. Set Request URL to `https://teamsbg.by.vincent.mahn.ke/?height=<height>&width=<height>&token=<height>
 6. Optionally set darken to 0-100 to set the opacity of the image (75 works well)
 7. Set `Save resposne` to `Save to file` and save it into any directory ending in `.png`
 8. Run the flow once to create the file
