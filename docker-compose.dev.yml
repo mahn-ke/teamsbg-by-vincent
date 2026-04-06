@@ -1,5 +1,0 @@
-services:
-  app:
-    build: ./app
-    volumes:
-      - ./app/main.js:/app/main.js
