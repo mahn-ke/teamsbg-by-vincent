@@ -1,0 +1,6 @@
+{
+    "name": "teamsbg-by-vincent",
+    "scripts": {
+        "start": "node main.js"
+    }
+}
