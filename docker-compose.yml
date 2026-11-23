@@ -1,13 +1,15 @@
 #http
 services:
   app:
-    image: ghcr.io/mahn-ke/wallpapers-by-vincent:latest@sha256:5dce2a1e6ed48ef76bea429660a0a66ea804e13ddb30d23dbf8819823ec0fc4c
+    image: ghcr.io/mahn-ke/wallpapers-by-vincent:latest@sha256:b853862537bb7c89dc4a7c3cb6119238d9abf949400b5bcb5641565e46c82529
     restart: on-failure:5
     environment:
       - APP_ACCESS_TOKEN=${APP_ACCESS_TOKEN}
       - IMMICH_ALBUM_ID=${IMMICH_ALBUM_ID}
       - IMMICH_API_KEY=${IMMICH_API_KEY}
       - IMMICH_BASE_URL=${IMMICH_BASE_URL}
+      - WORKDAYS_ONLY_SINCE=2026-11-23
+      - WEEKEND_CATCHUP_FROM=2025-12-16
     ports:
       - "3014:3000"
     healthcheck:
